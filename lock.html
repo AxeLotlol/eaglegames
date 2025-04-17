@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <title>CEFSA - Eagle Games - Lock</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img src="/images/cefsa.png">
+      <h2>CEFSA - Eagle Games</h2>
+      <button type="button" class="sign-out">Sign Out</button>
+    </header>
+    <div class="container">
+      <h1 id="lockTitle"></h1>
+      <form id="lockForm">
+        <label for="lockAnswer">Enter your answer:</label>
+        <input
+          type="text"
+          id="lockAnswer"
+          name="lockAnswer"
+          required
+          placeholder="Your Answer"
+        />
+        <button type="submit">Submit Answer</button>
+      </form>
+      <p id="feedback"></p>
+    </div>
+  </body>
+</html>
